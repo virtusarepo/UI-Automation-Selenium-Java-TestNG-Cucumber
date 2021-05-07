@@ -2,7 +2,7 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "line": 1,
   "name": "In order to surf different sites",
-  "description": "As a user\r\nI want to see the titles of each site loaded",
+  "description": "As a user\nI want to see the titles of each site loaded",
   "id": "in-order-to-surf-different-sites",
   "keyword": "Feature"
 });
@@ -22,7 +22,7 @@ formatter.match({
   "location": "SurfBrowsersTest.initializing_driver()"
 });
 formatter.result({
-  "duration": 26294749464,
+  "duration": 4482018413,
   "status": "passed"
 });
 formatter.scenario({
@@ -59,7 +59,7 @@ formatter.match({
   "location": "SurfBrowsersTest.the_site_to_browse_is(String)"
 });
 formatter.result({
-  "duration": 5372537037,
+  "duration": 5302008918,
   "status": "passed"
 });
 formatter.match({
@@ -72,7 +72,7 @@ formatter.match({
   "location": "SurfBrowsersTest.user_shall_get_the_title(String)"
 });
 formatter.result({
-  "duration": 1127443880,
+  "duration": 929616649,
   "status": "passed"
 });
 });

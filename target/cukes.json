@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 26294749464,
+              "duration": 4482018413,
               "status": "passed"
             },
             "line": 6,
@@ -33,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5372537037,
+              "duration": 5302008918,
               "status": "passed"
             },
             "line": 10,
@@ -51,7 +51,7 @@
           },
           {
             "result": {
-              "duration": 1127443880,
+              "duration": 929616649,
               "status": "passed"
             },
             "line": 11,
@@ -77,7 +77,7 @@
       }
     ],
     "name": "In order to surf different sites",
-    "description": "As a user\r\nI want to see the titles of each site loaded",
+    "description": "As a user\nI want to see the titles of each site loaded",
     "id": "in-order-to-surf-different-sites",
     "keyword": "Feature",
     "uri": "Smoke.feature"
