@@ -10,5 +10,4 @@ Scenario: Surf different sites
 Given The site to browse is "https://the-internet.herokuapp.com/"
 Then User shall get the title "The Internet"
 
-# Added Comment
 
