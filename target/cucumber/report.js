@@ -22,7 +22,7 @@ formatter.match({
   "location": "SurfBrowsersTest.initializing_driver()"
 });
 formatter.result({
-  "duration": 4482018413,
+  "duration": 4260092068,
   "status": "passed"
 });
 formatter.scenario({
@@ -59,7 +59,7 @@ formatter.match({
   "location": "SurfBrowsersTest.the_site_to_browse_is(String)"
 });
 formatter.result({
-  "duration": 5302008918,
+  "duration": 2546165089,
   "status": "passed"
 });
 formatter.match({
@@ -72,7 +72,7 @@ formatter.match({
   "location": "SurfBrowsersTest.user_shall_get_the_title(String)"
 });
 formatter.result({
-  "duration": 929616649,
+  "duration": 817146555,
   "status": "passed"
 });
 });
