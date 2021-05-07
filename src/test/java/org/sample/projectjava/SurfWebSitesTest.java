@@ -15,6 +15,8 @@ public class SurfWebSitesTest {
 	@BeforeClass
 	public void setupDriver() {
 		
+		System.out.println("Setup Driver: Chrome Driver");
+		
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/resources/drivers/chromedriver.exe");
 		
 		driver = new ChromeDriver();
@@ -23,6 +25,8 @@ public class SurfWebSitesTest {
 	
 	@Test(dataProvider="getSiteURLs", dataProviderClass=DataProviderExcel.class)
 	public void surfSites(String siteUrl) {
+		
+		System.out.println("Get site: " + siteUrl);
 		
 		driver.get(siteUrl);
 		

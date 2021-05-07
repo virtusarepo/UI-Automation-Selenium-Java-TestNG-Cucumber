@@ -1,7 +1,6 @@
 package stepdefinitions;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
@@ -15,6 +14,8 @@ public class SurfBrowsersTest {
 	@Given("^Initialize driver$")
 	public void initializing_driver() {
 		
+		System.out.println("Setup Driver: Gecko Driver");
+		
 		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/resources/drivers/geckodriver.exe");
 		
 		driver = new FirefoxDriver();
@@ -24,6 +25,7 @@ public class SurfBrowsersTest {
 	@Given("^The site to browse is \"([^\"]*)\"$")
 	public void the_site_to_browse_is(String siteUrl) {
 		
+		System.out.println("Get site: " + siteUrl);
 		
 		driver.get(siteUrl);
 		
